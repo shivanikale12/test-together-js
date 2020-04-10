@@ -1,0 +1,162 @@
+body{
+  background-color: #d9d9d9;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height:1.428571429;
+}
+.ExportLink{
+  margin-top:7%;
+  text-decoration: underline;
+}
+header{
+    height: 120px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+}
+.linkbtn{
+  padding: 0;
+  box-shadow: none;
+  border:none;
+}
+footer{
+  position: fixed;
+  height: 20px;
+  background-color: #000000;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  color: #d9d9d9;
+  text-align: right;
+}
+.LoginDiv{
+  margin-left:18%;
+  margin-top:3%;
+}
+.BFL_logo{
+    width:20%;
+	height: 150px;
+	margin-left: 2%;
+	background-image: url("../images/bfl_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.TIC_logo{
+  width:20%;
+	height: 80%;
+	margin-left: 2%;
+	background-image: url("../images/tic_logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    margin: 1%;
+}
+.btn{
+  font-size:14px;
+}
+.form-control{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height:1.428571429;
+}
+
+header span{
+    height: 85px;
+    color: white;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 600;
+    /* margin-left: 5%; */
+    margin-top: auto;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #6c757d;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  position: absolute;
+    /* margin: auto; */
+  top: 70%;
+  left: 45%;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+  .main.container {
+    max-width: 1080px;
+    margin: auto;
+  }
+  .top-buttons{
+    margin-top: 20px;
+  }
+
+  .row.visitor-data {
+    margin-top: 50px;
+}
+
+button.active.btn.btn-secondary.load-data {
+  background: green;
+  border-color: green;
+}
+
+.inputstl {
+ 
+  padding: 9px;
+   
+  border: solid 1px #4B718B;
+   
+  outline: 0;
+   
+  background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #CDDBE4), to(#FFFFFF));
+   
+  background: -moz-linear-gradient(top, #FFFFFF, #CDDBE4 1px, #FFFFFF 25px);
+   
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+   
+  -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+   
+  -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+   
+  }
